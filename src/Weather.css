@@ -1,0 +1,121 @@
+/* body {
+    background-color: rgb(35, 4, 71);
+} */
+
+.container {
+    width: 100%;
+    height: 100%;
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5sS9PowUFVP-h1d4eroVGoFb31BwjMVj1Bz8O9W4VYYGK2ZJ_dg); */
+    background-image: url(https://cdn1.newsplex.pt/media/2019/2/25/fb/681531.jpg);
+    background-size: cover;
+    background-color:transparent ;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.Title {
+    display: flex;
+    justify-content: center;
+    color: aliceblue
+}
+
+.Title h1 {
+    color: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdXpOjlRAI7C6RGWjBFyxHEP6nfB6ya5bDyrGOeqH3W-mFCUO-)
+}
+
+.Search {
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    font-size: 200%;
+}
+
+.Today {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+
+.fiveDay {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.currentDay {
+    width: 19%;
+    display: flex;
+    justify-content: center;
+}
+
+.otherDays {
+    width: 19%;
+    display: flex;
+    justify-content: center;    
+}
+
+.Today .Location {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 200%;
+    color: rgb(61, 243, 61);
+    border: 16px;
+}
+
+.Today .weather-info{
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: rgb(180, 111, 236);
+    font-Weight: bold;
+    border: 1px  solid rgb(159, 84, 219);
+    border-radius: 70px;
+}
+
+.currentDay .weather-info {
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 10px 0 10px;
+    border: 1px  solid rgb(159, 84, 219);
+    border-radius: 70px;
+    background-color: rgb(180, 111, 236);
+}
+
+.otherDays .weather-info {
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 10px 0 10px;
+    border: 1px  solid rgb(78, 6, 160);
+    border-radius: 70px;
+    background-color: rgb(35, 4, 71);
+}
+
+.weather-info p {
+    color: rgb(246, 250, 42);
+    display: flex;
+    justify-content: center;
+
+}
+
+.highTemp {
+    font-Weight: bold;
+    color: aliceblue
+}
+
+.Today .Error{
+    color: red;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
