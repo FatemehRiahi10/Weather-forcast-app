@@ -1,5 +1,4 @@
 import React from 'react';
-// import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Titles from './components/Titles';
 import Form from './components/Form';
 import CurrentWeather from './components/CurrentWeather';
